@@ -15,7 +15,7 @@ public class MathApp {
  Question 2:
 int CarPrice = 3000
  int TruckPrice = 6000
- int LowestPrice = Math.max(CarPrice, TruckPrice);
+ int LowestPrice = Math.min(CarPrice, TruckPrice);
  System.out.println(The lowest price is 3000 + LowestPrice)
 
 
